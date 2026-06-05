@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-bgColor: #332D29; 
+
+    --primary-color: #ED6000;
+    --sub-tone-primary-color: #BA6125;
+    
+    --secondary-color: #875636;
+    --sub-tone-secondary-color: #544032;
+
+}
+
+body{
+    display: flex;
+
+    width: auto;
+    height: auto;
+
+    background-color: var(--primary-bgColor);
+
+
+}
