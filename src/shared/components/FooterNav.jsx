@@ -1,31 +1,17 @@
-export function FooterNav(){
+export function FooterNav() {
 
-    return(
-        <footer className="flex bg-slate-950 left-0 right-0 bottom-0 h-14 justify-between items-center p-5 fixed" >
+    return (
+        <footer className="flex bg-slate-950 left-0 right-0 top-0 h-14 justify-between items-center p-8 fixed" >
 
-            <button className="flex justify-center items-center">
-                <p className="text-white">Casa</p>
+            <button className="flex flex-col justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                    <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                </svg>
             </button>
 
 
-            <button className="flex justify-center items-center">
-                <p className="text-white">Casa</p>
-            </button>
-
-            <button className="flex justify-center items-center">
-                <p className="text-white">Casa</p>
-            </button>
-
-            <button className="flex justify-center items-center">
-                <p className="text-white">Casa</p>
-            </button>
-
-            <button className="flex justify-center items-center">
-                <p className="text-white">Casa</p>
-            </button>
-
-
-
+        
 
         </footer>
     )
