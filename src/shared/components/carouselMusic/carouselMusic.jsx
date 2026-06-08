@@ -7,7 +7,7 @@ import "./carousel.css";
 
 export function CarouselMusic({ searchCategory, musicArray, }) {
   const [loading, setLoading] = useState(true)
-  const [musics, setMusics] = useState()
+  const [musics, setMusics] = useState([])
 
 
   useEffect(() => {

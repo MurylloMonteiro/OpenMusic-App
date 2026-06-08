@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --primary-bgColor: #050505; 
+    --primary-bgColor: #0f0f0f; 
 
     --primary-color: #ED6000;
     --sub-tone-primary-color: #BA6125;
